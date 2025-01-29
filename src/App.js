@@ -1,3 +1,11 @@
+// Este es el componente principal de la aplicación. Aquí se hace lo siguiente:
+
+// Se obtienen los datos del store de Redux usando useSelector.
+
+// Se dispara la acción fetchUsers (para obtener los usuarios) usando useDispatch.
+
+// Se muestra la lista de usuarios o un mensaje de carga/error.
+
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUsers } from './features/usersSlice';

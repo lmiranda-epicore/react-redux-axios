@@ -1,3 +1,9 @@
+// Este archivo contiene la lógica de Redux para manejar el estado de los usuarios. Aquí se define:
+// El estado inicial (users, loading, error).
+// La acción asíncrona fetchUsers, que obtiene los datos de la API.
+// El reducer, que actualiza el estado según el resultado de la solicitud.
+
+
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 

@@ -1,3 +1,5 @@
+// Este es el punto de entrada de la aplicación. Aquí se configura el renderizado de la aplicación y se envuelve el componente principal (App) con el Provider de Redux, que permite que todos los componentes accedan al store.
+
 import React from "react";
 import { createRoot } from "react-dom/client"; // Importa createRoot
 import { Provider } from "react-redux";
